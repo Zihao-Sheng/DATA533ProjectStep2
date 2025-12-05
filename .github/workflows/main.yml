@@ -25,14 +25,12 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
 
-      # Step 3: Install dependencies (只装第三方库，不装当前目录)
+      # Step 3: Install dependencies
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          # 如果你有 requirements.txt，就用这一行：
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-          # 如果暂时没有 requirements.txt，可以直接写：
-          # pip install pandas matplotlib
+          # 这里直接装你项目会用到的第三方库
+          pip install pandas matplotlib
 
       # Step 4: Run unit tests
       - name: Run unit tests
