@@ -26,6 +26,9 @@ Adjust budget_system.budget_system里面 add_member function，防止记录存�
 
 11/26 上午11:02 check
 
+12/05 下午 4:43 check
+
+
 11/25 上面咋都26号了？
 11/23 Rachel check
 
