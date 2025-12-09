@@ -1,0 +1,21 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual envs
+venv/
+env/
+.budget_test_env/
+budget_test_env/
+
+# Build / dist
+dist/
+build/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
